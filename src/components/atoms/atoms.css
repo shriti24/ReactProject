@@ -1,0 +1,45 @@
+.breadcrum-title {
+  padding: 0px 0px 5px 0px;
+  font-size: 20px;
+  color: #424242;
+}
+
+.padding20px {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.Selectable
+  .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #f0f8ff !important;
+  color: #4a90e2;
+}
+.Selectable .DayPicker-Day {
+  border-radius: 0 !important;
+}
+.Selectable .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+.Selectable .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.datepick {
+  cursor: pointer;
+  padding-top: 19px;
+  padding-left: 12px;
+  text-align: left;
+  font-size: initial;
+}
+
+.paddingTop0px {
+  padding-top: 0px;
+}

@@ -1,0 +1,33 @@
+.criteria {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.loader {
+  z-index: 99999;
+  position: absolute;
+  display: block;
+  margin-left: -32px;
+  margin-top: -32px;
+  left: 50%;
+  top: 50%;
+}
+
+.overlay {
+  z-index: 99998;
+  background: #555555;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.floatRight {
+  float: right;
+}

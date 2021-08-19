@@ -1,0 +1,175 @@
+.tableSkeleton {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding-top: 0px;
+  margin-top: 25px;
+  border: #ccc 1px solid;
+  border-bottom: none;
+  background: white;
+}
+
+.rowHeight {
+  height: 29px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #ffffff;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.tableCell {
+  font-size: 14px;
+  color: #444444;
+  padding: 0px 8px;
+  line-height: 50px;
+}
+
+.paddingLeft0px {
+  padding-left: 0px;
+}
+
+.paddingRight0px {
+  padding-right: 0px;
+}
+
+.tableBackgroundColor {
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  display: table;
+  border-spacing: 0;
+  border-collapse: separate;
+  border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.tableHeaderGroup {
+  display: table-header-group;
+  vertical-align: middle;
+}
+
+.editButton {
+  color: #1565c0;
+  float: left;
+  padding: 0px 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.tableTextBox {
+  font-size: 13px;
+  color: #666666;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #999;
+  width: 100%;
+  outline: none;
+  margin: 5px 0px;
+  line-height: 20px;
+}
+
+.tableTextBox:focus {
+  font-size: 13px;
+  color: #666666;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #0053ad;
+  width: 100%;
+  outline: none;
+  margin: 5px 0px;
+  line-height: 20px;
+}
+
+.positionSticky {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.positionSticky50 {
+  position: sticky;
+  top: 50px;
+  z-index: 1;
+}
+
+.positionSticky0 {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.tableHeight {
+  overflow-y: scroll;
+}
+
+.tableData {
+  color: #333;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 8px;
+  border-bottom: 1px solid rgb(119, 119, 119);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background: #f6faff;
+  border-right: 1px solid #dddddd;
+}
+
+.paddingTop15px {
+  padding-top: 15px;
+}
+
+.tableRow {
+  border-top: 1px solid #cccccc;
+}
+
+.tableRowChild {
+  border-top: 1px solid #cccccc;
+  background-color: #f2f2f2;
+}
+
+.overflowXScroll {
+  min-width: 700px;
+  overflow-x: scroll;
+}
+
+.xScrollHeader {
+  z-index: 2;
+  position: sticky;
+}
+
+.xScrollEven {
+  background: #ffffff;
+  position: sticky;
+}
+
+.xScrollOdd {
+  background: #f2f2f2;
+  position: sticky;
+}
+
+.rightBorder {
+  border-right: 1px solid #dddddd;
+}
+
+.leftShadow {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  box-shadow: #25312682 2px 0px 15px;
+}
+
+.rightShadow {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  box-shadow: #25312682 2px 0px 15px;
+}
